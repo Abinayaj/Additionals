@@ -1,0 +1,25 @@
+
+2. In case user choose "Time Type" as Holiday, weekly off, Compoff, Task should be left blank (or) it should display the same value as Time type.
+3. Values displayed under "Task" is not constant for all users, who works for same project. 
+Example: If user choose Client: project--> is chosen as " Standard chartered Global business Services Pvt Ltd: Standard chartered -RTOB SIT & Digital Testing"
+  user A has the following values in task
+    3.1: Verify & Validate User Requirements[Design]
+    5.1: LOP [Standard Tasks]
+  User B has the following values in task
+    2.1: Test Execution
+    5.1: LOP [Standard Tasks]
+4.When Client: project--> is chosen as " Standard chartered Global business Services Pvt Ltd: Standard chartered bank-RTOB Digital & CI Testing" , no values displayed under "Task" 
+
+Since we face issue in mobile accessing OpenAir in chrome like page slowness and page freezed at the time of maximise,will be ease if we get access to mobile application OpenAir.Mobile Application asks Company ID to login whcih we were not provided with yet.
+
+
+Hi Rohini and Ajay,
+
+Please find Client: project there are LOV as below
+   Standard chartered Global business Services Pvt Ltd: Standard chartered bank-RTOB SIT & Digital Testing.
+   Standard chartered Global business Services Pvt Ltd: Standard chartered bank-RTOB Digital & CI Testing.
+   
+   We have another LOV under Task to select ,only if RTOB SIT & Digital Testing was selected.Do we need to consider RTOB Digital & CI Testing or not.If yes then Task LOV to be enabled for this project RTOB Digital & CI Testing.
+   
+   
+Earlier clarification mail was attached for reference.
